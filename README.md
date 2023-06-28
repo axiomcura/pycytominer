@@ -10,7 +10,7 @@
 Pycytominer is a suite of common functions used to process high dimensional readouts from high-throughput cell experiments.
 The tool is most often used for processing data through the following pipeline:
 
-<img height="325" alt="Description of the pycytominer pipeline. Images flow from feature extraction and are processed with a series of steps" src="https://github.com/cytomining/pycytominer/blob/master/media/pipeline.png?raw=true">
+<img height="325" width="700" alt="Description of the pycytominer pipeline. Images flow from feature extraction and are processed with a series of steps" src="https://github.com/cytomining/pycytominer/blob/master/media/pipeline.png?raw=true">
 
 [Click here for high resolution pipeline image](https://github.com/cytomining/pycytominer/blob/master/media/pipeline.png)
 
@@ -110,9 +110,16 @@ And, more specifically than that, image-based profiling readouts from [CellProfi
 
 Therefore, we have included some custom tools in `pycytominer/cyto_utils` that provides other functionality:
 
-- [CellProfiler CSV collation](#CellProfiler-CSV-collation)
-- [Cell locations lookup table generation](#Creating-a-cell-locations-lookup-table)
-- [Generating gct files for Morpheus visualization](#Generating-a-GCT-file-for-morpheus)
+- [Data processing for image-based profiling](#data-processing-for-image-based-profiling)
+  - [Installation](#installation)
+  - [Frameworks](#frameworks)
+  - [API](#api)
+  - [Usage](#usage)
+    - [Pipeline orchestration](#pipeline-orchestration)
+  - [Other functionality](#other-functionality)
+    - [CellProfiler CSV collation](#cellprofiler-csv-collation)
+    - [Creating a cell locations lookup table](#creating-a-cell-locations-lookup-table)
+    - [Generating a GCT file for morpheus](#generating-a-gct-file-for-morpheus)
 
 Note, [`pycytominer.cyto_utils.cells.SingleCells()`](pycytominer/cyto_utils/cells.py) contains code to interact with single-cell SQLite files, which are output from CellProfiler.
 Processing capabilities for SQLite files depends on SQLite file size and your available computational resources (for ex. memory and cores).
