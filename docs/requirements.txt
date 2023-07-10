@@ -1,6 +1,7 @@
 sphinx==7.0.0
 sphinx-autobuild
 sphinx-autoapi
+pygments
 groundwork-sphinx-theme
 sphinx_copybutton
 nbsphinx
