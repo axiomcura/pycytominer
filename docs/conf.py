@@ -45,7 +45,7 @@ extensions = [
 ]
 
 pygments_style = 'sphinx'
-
+pygments_lexer_override = {'ipython3': 'python3'}
 # Add any paths that contain templates here, relative to this directory.
 templates_path = ["_templates"]
 
