@@ -1,4 +1,4 @@
-sphinx==7.0.0
+sphinx
 sphinx-autobuild
 sphinx-autoapi
 pygments
