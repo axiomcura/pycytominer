@@ -2,7 +2,7 @@ sphinx==7.0.0
 sphinx-autobuild
 sphinx-autoapi
 pygments
-IPython
+ipython
 groundwork-sphinx-theme
 sphinx_copybutton
 nbsphinx
